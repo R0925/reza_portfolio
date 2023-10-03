@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'IranSans';
+    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\).eot");
+    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\).woff") format("woff"),
+        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\).woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    }
+   @font-face {
+    font-family: 'IranSans';
+    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Bold.eot");
+    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Bold.woff") format("woff"),
+        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    }
+   @font-face {
+    font-family: 'IranSans';
+    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Light.eot");
+    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Light.woff") format("woff"),
+        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Light.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+    }
+   @font-face {
+    font-family: 'IranSans';
+    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_UltraLight.eot");
+    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_UltraLight.woff") format("woff"),
+        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_UltraLight.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+    }
+
+body{
+    font-family: 'IranSans';
+    background-color: #0f172a;
+    color: #94a9b8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --cursorX: 50vw;
+    --cursorY: 50vh;
+  }
+  :root:before {
+    z-index: -100;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 30vmax at var(--cursorX) var(--cursorY),
+      rgba(32,49,89,0.3) 0%, rgba(32,49,89,0.2) 34%, rgba(32,49,89,0.1) 61%, rgba(32,49,89,0) 92%
+         )
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
 }
