@@ -12,7 +12,7 @@ const Archive = () => {
         <FiArrowRight className="ml-2 transition group-hover:translate-x-4 text-[#c8e3f7]" />
         بازگشت
       </Link>
-      <h1 className="text-5xl text-[#c8e3f7] font-bold">همه پروژه ها</h1>
+      <h1 className="text-5xl text-[#c8e3f7] font-bold font-[anjoman]">همه پروژه ها</h1>
 
       <table class="w-full text-sm text-right mt-20">
         <thead class=" text-[#c8e3f7]">
@@ -50,10 +50,13 @@ const Archive = () => {
                   JavaScript
                 </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  Bootstrap
+                  Tailwind css
                 </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  JQuery
+                  React
+                </li>
+                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
+                  bootstrap
                 </li>
               </ul>
             </td>
@@ -69,55 +72,29 @@ const Archive = () => {
               scope="row"
               class="px-6 py-4 "
             >
-              1401
+              1400
             </th>
-            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت صندوق توسعه فناوری های نوین</td>
-            <td class="px-6 py-4">استدیو نوینا</td>
+            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت شرکت سوران ارقام فناور</td>
+            <td class="px-6 py-4"> سوران</td>
             <td class="px-6 py-4">
               <ul className="flex flex-wrap gap-2 mt-5">
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
                   JavaScript
                 </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  Bootstrap
+                  Angular.js
                 </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
                   JQuery
                 </li>
-              </ul>
-            </td>
-            <td class="px-6 py-4">
-              <a href="https://htdf.ir/" className="group flex">
-                htdf.ir
-                <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
-              </a>
-            </td>
-          </tr>
-          <tr class=" border-b  border-gray-700">
-            <th
-              scope="row"
-              class="px-6 py-4 "
-            >
-              1401
-            </th>
-            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت صندوق توسعه فناوری های نوین</td>
-            <td class="px-6 py-4">استدیو نوینا</td>
-            <td class="px-6 py-4">
-              <ul className="flex flex-wrap gap-2 mt-5">
-                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  JavaScript
-                </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
                   Bootstrap
                 </li>
-                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  JQuery
-                </li>
               </ul>
             </td>
             <td class="px-6 py-4">
-              <a href="https://htdf.ir/" className="group flex">
-                htdf.ir
+              <a href="http://sooran.co/" className="group flex">
+                sooran.co
                 <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
               </a>
             </td>
@@ -127,10 +104,10 @@ const Archive = () => {
               scope="row"
               class="px-6 py-4 "
             >
-              1401
+              1400
             </th>
-            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت صندوق توسعه فناوری های نوین</td>
-            <td class="px-6 py-4">استدیو نوینا</td>
+            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت شرکت استورم</td>
+            <td class="px-6 py-4">استورم</td>
             <td class="px-6 py-4">
               <ul className="flex flex-wrap gap-2 mt-5">
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
@@ -140,17 +117,50 @@ const Archive = () => {
                   Bootstrap
                 </li>
                 <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
-                  JQuery
+                  Angular.js
+                </li>
+                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
+                  React.js
                 </li>
               </ul>
             </td>
             <td class="px-6 py-4">
-              <a href="https://htdf.ir/" className="group flex">
-                htdf.ir
+              <a href="https://www.storm-online.ir/" className="group flex">
+                storm-online.ir
                 <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
               </a>
             </td>
           </tr>
+          <tr class=" border-b  border-gray-700">
+            <th
+              scope="row"
+              class="px-6 py-4 "
+            >
+              1399
+            </th>
+            <td class="px-6 py-4 text-[#c8e3f7] font-bold">وبسایت شرکت فاینو</td>
+            <td class="px-6 py-4"> سوران</td>
+            <td class="px-6 py-4">
+              <ul className="flex flex-wrap gap-2 mt-5">
+                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
+                  JavaScript
+                </li>
+                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
+                  Bootstrap
+                </li>
+                <li className=" rounded-full text-teal-300 bg-teal-400/10 px-3 leading-none py-2 text-xs">
+                  Angular.js
+                </li>
+              </ul>
+            </td>
+            <td class="px-6 py-4">
+              <a href="http://sooran.co/" className="group flex">
+                sooran.co
+                <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
+              </a>
+            </td>
+          </tr>
+
         </tbody>
       </table>
     </section>

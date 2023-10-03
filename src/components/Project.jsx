@@ -14,7 +14,7 @@ const Project = () => {
             />
           </header>
           <div className="col-span-6 sm:order-2 ">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
               وبسایت صندوق توسعه فناوری های نوین
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>
@@ -43,13 +43,13 @@ const Project = () => {
         <div className="group grid gap-2 sm:grid-cols-8 mt-10 rounded p-5 transition hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
           <header className="col-span-2 text-xs sm:order-1 order-2">
             <img
-              src="./images/htdf.png"
+              src="./images/sooran.png"
               className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-              alt="htdf"
+              alt="sooran"
             />
           </header>
           <div className="col-span-6 sm:order-2">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
               وبسایت شرکت سوران ارقام فناور
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>
@@ -78,14 +78,14 @@ const Project = () => {
         <div className="group grid gap-2 sm:grid-cols-8 mt-10 rounded p-5 transition lg:hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
           <header className="col-span-2 text-xs sm:order-1 order-2">
             <img
-              src="./images/htdf.png"
+              src="./images/fino.png"
               className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-              alt="htdf"
+              alt="fino"
             />
           </header>
           <div className="col-span-6 sm:order-2">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
-            وبسایت شرکت فاینو،
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
+            وبسایت شرکت فاینو
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>
             <p className="text-sm leading-7 mt-4">
@@ -109,13 +109,13 @@ const Project = () => {
         <div className="group grid gap-2 sm:grid-cols-8 mt-10 rounded p-5 transition lg:hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
           <header className="col-span-2 text-xs sm:order-1 order-2">
             <img
-              src="./images/htdf.png"
+              src="./images/storm.png"
               className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-              alt="htdf"
+              alt="storm"
             />
           </header>
           <div className="col-span-6 sm:order-2">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
               وبسایت شرکت استورم
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>

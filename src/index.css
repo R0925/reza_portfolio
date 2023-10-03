@@ -2,65 +2,114 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "IranSans";
+  src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\).eot");
+  src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\).woff")
+      format("woff"),
+    url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\).woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Bold.eot");
+  src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Bold.woff")
+      format("woff"),
+    url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Bold.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Light.eot");
+  src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Light.woff")
+      format("woff"),
+    url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Light.woff2")
+      format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IranSans";
+  src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_UltraLight.eot");
+  src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_UltraLight.woff")
+      format("woff"),
+    url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_UltraLight.woff2")
+      format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: 'IranSans';
-    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\).eot");
-    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\).woff") format("woff"),
-        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\).woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    }
-   @font-face {
-    font-family: 'IranSans';
-    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Bold.eot");
-    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Bold.woff") format("woff"),
-        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    }
-   @font-face {
-    font-family: 'IranSans';
-    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_Light.eot");
-    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_Light.woff") format("woff"),
-        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_Light.woff2") format("woff2");
-    font-weight: 200;
-    font-style: normal;
-    }
-   @font-face {
-    font-family: 'IranSans';
-    src: url("../public/fonts/IranSans/eot/IRANSansWeb\(FaNum\)_UltraLight.eot");
-    src: url("../public/fonts/IranSans/woff/IRANSansWeb\(FaNum\)_UltraLight.woff") format("woff"),
-        url("../public/fonts/IranSans/woff2/IRANSansWeb\(FaNum\)_UltraLight.woff2") format("woff2");
-    font-weight: 100;
-    font-style: normal;
-    }
+  font-family: "anjoman";
+  src: url("../public/fonts/anjoman/eot/AnjomanFaNum-Medium.eot");
+  src: url("../public/fonts/anjoman/Woff/AnjomanFaNum-Medium.woff")
+      format("woff"),
+    url("../public/fonts/anjoman/Woff2/AnjomanFaNum-Medium.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "anjoman";
+  src: url("../public/fonts/anjoman/eot/AnjomanFaNum-ExtraBold.eot");
+  src: url("../public/fonts/anjoman/Woff/AnjomanFaNum-ExtraBold.woff")
+      format("woff"),
+    url("../public/fonts/anjoman/Woff2/AnjomanFaNum-ExtraBold.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "anjoman";
+  src: url("../public/fonts/anjoman/eot/AnjomanFaNum-Thin.eot");
+  src: url("../public/fonts/anjoman/Woff/AnjomanFaNum-Thin.woff") format("woff"),
+    url("../public/fonts/anjoman/Woff2/AnjomanFaNum-Thin.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "anjoman";
+  src: url("../public/fonts/anjoman/eot/AnjomanFaNum-ExtraLight.eot");
+  src: url("../public/fonts/anjoman/Woff/AnjomanFaNum-ExtraLight.woff")
+      format("woff"),
+    url("../public/fonts/anjoman/Woff2/AnjomanFaNum-ExtraLight.woff2")
+      format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
 
-body{
-    font-family: 'IranSans';
-    background-color: #0f172a;
-    color: #94a9b8;
+body {
+  font-family: "IranSans";
+  background-color: #0f172a;
+  color: #94a9b8;
+  transition: all 0.2s;
 }
 
 :root {
-    --cursorX: 50vw;
-    --cursorY: 50vh;
-  }
-  :root:before {
-    z-index: -100;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    pointer-events: none;
-    background: radial-gradient(
-      circle 30vmax at var(--cursorX) var(--cursorY),
-      rgba(32,49,89,0.3) 0%, rgba(32,49,89,0.2) 34%, rgba(32,49,89,0.1) 61%, rgba(32,49,89,0) 92%
-         )
-    
-  }
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  z-index: -100;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 30vmax at var(--cursorX) var(--cursorY),
+    rgba(32, 49, 89, 0.3) 0%,
+    rgba(32, 49, 89, 0.2) 34%,
+    rgba(32, 49, 89, 0.1) 61%,
+    rgba(32, 49, 89, 0) 92%
+  );
+}
 
-  html {
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }

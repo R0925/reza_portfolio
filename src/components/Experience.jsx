@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="group grid sm:grid-cols-8 mt-10 rounded p-5 transition hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
           <header className="col-span-2 text-xs">1401 — تا به امروز</header>
           <div className="col-span-6">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
               توسعه دهنده فرانت · استدیو نوینا
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>
@@ -43,7 +43,7 @@ const Experience = () => {
         <div className="group grid sm:grid-cols-8 mt-10 rounded p-5 transition hover:bg-slate-800/50 hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] hover:drop-shadow-lg">
           <header className="col-span-2 text-xs">1399 — 1401</header>
           <div className="col-span-6">
-            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center">
+            <h2 className="text-lg font-bold text-[#c8e3f7] flex items-center font-[anjoman]">
             توسعه دهنده فرانت · سوران ارقام فناور
               <FiArrowUpLeft className="mr-2 text-sm transition-all group-hover:-translate-x-1 group-hover:-translate-y-1" />
             </h2>
